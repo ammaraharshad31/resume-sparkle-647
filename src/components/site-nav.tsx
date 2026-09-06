@@ -59,9 +59,10 @@ export function SiteFooter() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Company</p>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li>About</li>
-            <li>Privacy</li>
-            <li>Terms</li>
+            <li><Link to="/company" className="hover:text-primary">Company</Link></li>
+            <li><Link to="/about" className="hover:text-primary">About</Link></li>
+            <li><Link to="/privacy" className="hover:text-primary">Privacy</Link></li>
+            <li><Link to="/terms" className="hover:text-primary">Terms</Link></li>
           </ul>
         </div>
       </div>
